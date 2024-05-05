@@ -48,6 +48,10 @@
     font-size: 20px;
 }
 
+.fs-24 {
+    font-size: 24px;
+}
+
 .fs-32 {
     font-size: 32px;
 }
@@ -166,4 +170,45 @@ header {
 .cta-card {
     background-color: #161348;
     border-radius: 0 80px;
+}
+
+
+/* customers */
+.customers {
+    background-color: #F6F6FA;
+}
+
+.slider-holder {
+    width: 90%;
+    margin-left: auto;
+}
+
+#nextBtn {
+    transform: rotate(180deg);
+}
+
+button,
+.btn {
+    outline: unset !important;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+
+.slide .card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.info {
+    bottom: -100%;
+    transition: 0.3s;
+}
+
+.slide .card:hover .info {
+    bottom: 0;
 }
