@@ -35,8 +35,38 @@
 }
 
 /* font sizes */
+.fs-14 {
+    font-size: 14px;
+
+}
+
 .fs-18 {
     font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+/* text-colors */
+.text-63 {
+    color: #636363;
+}
+
+.text-72 {
+    color: #727272;
+}
+
+.text-green {
+    color: #5CCAA7;
+}
+
+.text-blue {
+    color: #038AFF;
 }
 
 /* header */
@@ -67,4 +97,50 @@ header {
 /* hero */
 .lh-2 {
     line-height: 1.5;
+}
+
+
+/* tools */
+.py-100 {
+    padding: 100px 0;
+}
+
+.play-btn {
+    top: 50%;
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%);
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.play-btn:hover {
+    transform: scale(1.1) translate(-50%, -50%);
+}
+
+.img-holder {
+    z-index: 100;
+}
+
+.progress-card {
+    width: 400px;
+    top: 50%;
+    left: -40%;
+}
+
+.progress {
+    height: 5px;
+    background-color: #D9D9D9;
+}
+
+.progress-bar {
+    background-color: #FEC34B;
+}
+
+
+
+/* features */
+.curve-right {
+    top: 100%;
+    left: 95%;
+    transform: scale(1.2);
 }
