@@ -176,6 +176,7 @@ header {
 /* customers */
 .customers {
     background-color: #F6F6FA;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
 
 .slider-holder {
@@ -211,4 +212,29 @@ button,
 
 .slide .card:hover .info {
     bottom: 0;
+}
+
+
+/* faq */
+.btn-blue {
+    background-color: #038AFF;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #038AFF;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.accordion * {
+    border: 0;
+    background-color: transparent !important;
+}
+
+.accordion-item {
+    background: #F7F7F7 !important;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
