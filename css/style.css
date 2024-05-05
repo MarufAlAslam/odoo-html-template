@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "aileron-regular";
+    src: url("../fonts/Aileron-Regular.otf");
+}
+
+@font-face {
+    font-family: "aileron-semibold";
+    src: url("../fonts/Aileron-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "aileron-bold";
+    src: url("../fonts/Aileron-Bold.otf");
+}
+
+@font-face {
+    font-family: "aileron-black";
+    src: url("../fonts/Aileron-Black.otf");
+}
+
+* {
+    font-family: "aileron-regular";
+}
+
+.bold {
+    font-family: "aileron-bold";
+}
+
+.semibold {
+    font-family: "aileron-semibold";
+}
+
+.black {
+    font-family: "aileron-black";
+}
