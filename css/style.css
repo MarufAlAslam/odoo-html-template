@@ -33,3 +33,38 @@
 .black {
     font-family: "aileron-black";
 }
+
+/* font sizes */
+.fs-18 {
+    font-size: 18px;
+}
+
+/* header */
+header {
+    background-image: url("../img/header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 150px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+.btn-white:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.h-1 {
+    height: 1px;
+}
+
+/* hero */
+.lh-2 {
+    line-height: 1.5;
+}
