@@ -48,6 +48,10 @@
     font-size: 20px;
 }
 
+.fs-32 {
+    font-size: 32px;
+}
+
 .fs-36 {
     font-size: 36px;
 }
@@ -155,4 +159,11 @@ header {
 
 .z-100 {
     z-index: 100;
+}
+
+
+/* cta card */
+.cta-card {
+    background-color: #161348;
+    border-radius: 0 80px;
 }
