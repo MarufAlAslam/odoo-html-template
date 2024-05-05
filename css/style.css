@@ -144,3 +144,15 @@ header {
     left: 95%;
     transform: scale(1.2);
 }
+
+
+/* tech */
+.tech-curve {
+    top: 90%;
+    left: -27%;
+    transform: scale(1.4) rotate(-18deg);
+}
+
+.z-100 {
+    z-index: 100;
+}
