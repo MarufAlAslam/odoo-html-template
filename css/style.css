@@ -95,6 +95,17 @@ html {
     color: #C3C3C3;
 }
 
+/* paddings */
+.px-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
 /* header */
 header {
     background-image: url("../img/header-bg.svg");

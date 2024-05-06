@@ -13,7 +13,14 @@ $('.slider').slick({
     nextArrow: '#nextBtn',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1396,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 1200,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
